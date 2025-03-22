@@ -12,7 +12,7 @@ import { store } from './store/Store.jsx';
   ReactDom.createRoot(document.getElementById("root")).render( 
   
 <Provider store={store}>
-  <BrowserRouter>
+  <BrowserRouter basename="/movieshowcaseapp" >
   <App />
   </BrowserRouter>
   </Provider>
